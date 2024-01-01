@@ -52,7 +52,7 @@ def main():
             # caption = generate_caption(uploaded_file.name)
 
             # Display the caption
-            # st.write("Image Caption:")
+            st.write("Image Caption:")
             # st.write(caption)
         except Exception as e:
             st.error(f"Error: {e}")
